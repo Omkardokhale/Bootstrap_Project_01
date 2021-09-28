@@ -1,0 +1,216 @@
+body{
+ background-color: rgba(136, 25, 31, 0.945);
+}
+
+.name_color{
+    -moz-text-decoration-color: red;
+}
+
+.text_size{
+    text-align: center;
+}
+
+   .img_size{
+      opacity: 1;
+   }
+
+   .text_align{
+       right: 50px;;
+   }
+
+   ul{
+      right: 50px;
+   }
+
+   .text_b{
+    padding-left: 70px;
+   }
+
+   .text_c{
+   padding-left: 70px;
+   }
+
+   .text_d{
+    padding-left: 70px;
+   }
+
+   .text_e{
+    padding-left: 70px;
+   }
+
+   .text_f{
+    padding-inline-start: 5%;
+   }
+
+   .text_h{
+    padding-inline-start: 27%;
+   }
+  
+   
+
+   .pdg_t{
+   padding-inline-start: 44%;
+ 
+   }
+
+   .pdg_a{
+    padding-inline-start: 40%;
+  
+    }
+
+    .pdg_b{
+        padding-inline-start: 40%;
+      
+        }
+
+        .Sweet_a{
+            padding-inline-start: 39%;
+            padding-top: -100%;
+
+        }
+
+   .car_collection{
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;   
+   }
+
+   .card_one{
+       padding-inline-start: 10%;
+   }
+
+  
+
+   
+   footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(239, 245, 184);
+    color: rgb(16, 22, 18);
+  }
+   
+   
+   .browse_all_cars:hover, .car_option:hover{
+    color: rgb(247, 227, 113);
+}
+
+.wi_a{
+    width: 70vh;
+    height: 50vh;
+}
+
+.card_w{
+width: 100%;
+height: 10%;
+padding-top: 5%;
+padding-inline-start: 10%;
+padding-inline-end: 10%;
+}
+
+.card_x{
+    width: 70%;
+    height: 100%;
+    padding-top: 6%;
+    padding-inline-start: 30%;
+    padding-inline-end: 1%;
+    }
+
+ .mess_a{
+     text-align: center;
+ }
+
+ .card_s{
+     
+     height: 10%;
+     padding-inline-start: 20%;
+     padding-inline-end: 20%;
+ }
+
+
+
+ /*--------------------------------------------------------------------------*\
+ .row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
